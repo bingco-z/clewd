@@ -5,6 +5,8 @@ then
     echo "Install nodejs"
 fi
 
+apt install libc6 -y
+
 npm install --no-audit --fund false
 chmod u+x node_modules/clewd-superfetch/bin/*
 node clewd.js
