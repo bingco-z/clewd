@@ -19,12 +19,13 @@ module.exports = {
         "SystemExperiments": true,
         "AllSamples": false,
         "NoSamples": false,
-        "StripAssistant": false,
-        "StripHuman": false,
+        "StripAssistant": true,
+        "StripHuman": true,
         "PassParams": false,
         "ClearFlags": false,
         "PreserveChats": false,
-        "LogMessages": false
+        "LogMessages": false,
+        "Superfetch": true,
     },
     "PersonalityFormat": "{{CHAR}}'s personality: {{PERSONALITY}}",
     "ScenarioFormat": "Dialogue scenario: {{SCENARIO}}"
